@@ -39,6 +39,15 @@ When projects diverge significantly, the framework does not blindly carry over p
 
 Reusability is assessed by measuring new data, resources, or patterns against the current problem set, goals, and constraints. Alignment is treated as largely binary against the defined rubric: if it aligns, it can be leveraged; if it does not align, it is discarded or adjusted.
 
+## Framework Resilience and Recovery
+
+The framework includes explicit recovery paths when issues are discovered:
+
+- **Minor deviations** within the current rubric are corrected by the builder under guidance from the artifact checker.
+- **Material gaps** that require changes to the rubric itself are escalated to the planning checker. The rubric is then updated through a deliberate, high-friction process. This preserves the rubric’s role as stable “word of law.” Frequent triggering of rubric changes indicates either that the initial rubric lacked sufficient rigor or that external forces (technical, business, or regulatory) were not adequately accounted for during definition.
+
+The framework does not assume the initial rubric will be perfect. It assumes adversarial pressure will surface gaps early enough that correction cost remains lower than traditional post-generation rework.
+
 ## Stated Goal of the Framework
 
 The framework does not claim to make AI augmentation infallible. That would be a farce. Its purpose is to **drastically reduce the recurring problems** that appear in current AI-augmented development — late clarification, high volumes of post-generation rework, weak constraint enforcement, context poisoning, and high coordination cost caused by human variability.
